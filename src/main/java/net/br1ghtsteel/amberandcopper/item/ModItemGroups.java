@@ -17,7 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.amber_and_copper"))
                     .icon(() -> new ItemStack(Items.COPPER_INGOT))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.COPPER_BAR);
+                        entries.add(ModBlocks.COPPER_BAR);
                     }).build());
 
     public static void registerItemGroups() {

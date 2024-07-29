@@ -14,8 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item COPPER_BAR = registerItem("copper_bar",
-            new BarBlockItem(ModBlocks.COPPER_BAR_STRAIGHT, ModBlocks.COPPER_BAR_CORNER, new FabricItemSettings()));
+    /*public static final Item COPPER_BAR = registerItem("copper_bar",
+            new BarBlockItem(ModBlocks.COPPER_BAR_STRAIGHT, ModBlocks.COPPER_BAR_CORNER, new FabricItemSettings()));*/
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         // entries.add(COPPER_BAR);

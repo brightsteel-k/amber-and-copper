@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "amberandcopper:copper_bar_straight",
-    "amberandcopper:copper_bar_corner"
+    "amberandcopper:copper_bar"
   ]
 }

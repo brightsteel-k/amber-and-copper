@@ -24,7 +24,7 @@ public class StraightBarBlock extends BarBlock {
 
     public StraightBarBlock(Settings settings) {
         super(settings);
-        this.setDefaultState(this.getDefaultState().with(AXIS, Direction.Axis.Y).with(POWERED, false));
+        this.setDefaultState(this.getDefaultState().with(AXIS, Direction.Axis.Y));
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -61,11 +61,11 @@ public class StraightBarBlock extends BarBlock {
     }
 
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(new Property[]{AXIS, POWERED});
+        builder.add(new Property[]{AXIS});
     }
 
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return this.getDefaultState().with(AXIS, ctx.getSide().getAxis()).with(POWERED, false);
+        return this.getDefaultState().with(AXIS, ctx.getSide().getAxis());
     }
 
     /*@Override

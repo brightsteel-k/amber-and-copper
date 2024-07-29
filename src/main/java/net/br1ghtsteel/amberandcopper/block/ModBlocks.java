@@ -13,12 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block COPPER_BAR_STRAIGHT = registerBlock("copper_bar_straight",
-            new CopperStraightBarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)),
-            false);
-    public static final Block COPPER_BAR_CORNER = registerBlock("copper_bar_corner",
-            new CopperCornerBarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)),
-            false);
+    public static final Block COPPER_BAR = registerBlock("copper_bar",
+            new CopperBarBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

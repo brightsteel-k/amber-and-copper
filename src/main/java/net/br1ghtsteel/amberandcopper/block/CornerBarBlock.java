@@ -35,8 +35,7 @@ public class CornerBarBlock extends BarBlock {
     public CornerBarBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.getDefaultState().with(HORIZONTAL_FACING, Direction.NORTH)
-                .with(UPWARD_FACING, false)
-                .with(POWERED, false));
+                .with(UPWARD_FACING, false));
     }
 
     private static VoxelShape[] composeShapes(VoxelShape up, VoxelShape down, VoxelShape north, VoxelShape east, VoxelShape south, VoxelShape west) {
@@ -81,6 +80,6 @@ public class CornerBarBlock extends BarBlock {
     }
 
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(new Property[]{POWERED, HORIZONTAL_FACING, UPWARD_FACING});
+        builder.add(new Property[]{HORIZONTAL_FACING, UPWARD_FACING});
     }
 }

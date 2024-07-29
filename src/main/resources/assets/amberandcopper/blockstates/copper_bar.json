@@ -1,0 +1,70 @@
+{
+  "variants": {
+    "shape=straight,axis=x": {
+      "model": "amberandcopper:block/copper_bar_straight",
+      "x": 90,
+      "y": 90
+    },
+    "shape=straight,axis=y": {
+      "model": "amberandcopper:block/copper_bar_straight"
+    },
+    "shape=straight,axis=z": {
+      "model": "amberandcopper:block/copper_bar_straight",
+      "x": 90
+    },
+    "shape=negative_negative,axis=x": {
+      "model": "amberandcopper:block/copper_bar_corner"
+    },
+    "shape=negative_positive,axis=x": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "y": 180
+    },
+    "shape=positive_negative,axis=x": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 180,
+      "y": 180
+    },
+    "shape=positive_positive,axis=x": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 180
+    },
+    "shape=negative_negative,axis=y": {
+      "model": "amberandcopper:block/copper_bar_corner_horizontal",
+      "y": 270
+    },
+    "shape=negative_positive,axis=y": {
+      "model": "amberandcopper:block/copper_bar_corner_horizontal",
+      "x": 180,
+      "y": 90
+    },
+    "shape=positive_negative,axis=y": {
+      "model": "amberandcopper:block/copper_bar_corner_horizontal",
+      "x": 180,
+      "y": 270
+    },
+    "shape=positive_positive,axis=y": {
+      "model": "amberandcopper:block/copper_bar_corner_horizontal",
+      "y": 90
+    },
+    "shape=positive_negative,axis=z": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 90,
+      "y": 270
+    },
+    "shape=negative_negative,axis=z": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 90,
+      "y": 90
+    },
+    "shape=positive_positive,axis=z": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 270,
+      "y": 90
+    },
+    "shape=negative_positive,axis=z": {
+      "model": "amberandcopper:block/copper_bar_corner",
+      "x": 270,
+      "y": 270
+    }
+  }
+}
