@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "amberandcopper",
+	"version": "${version}",
+	"name": "Amber and Copper",
+	"description": "The Amber Arts: electromagnetism in Minecraft!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/amberandcopper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.br1ghtsteel.amberandcopper.AmberAndCopper"
+		],
+		"client": [
+          "net.br1ghtsteel.amberandcopper.AmberAndCopperClient"
+		],
+		"fabric-datagen": [
+          "net.br1ghtsteel.amberandcopper.AmberAndCopperDataGenerator"
+		]
+	},
+	"mixins": [
+		"amberandcopper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
